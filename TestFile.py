@@ -15,6 +15,8 @@ import sqlite3  # Database
 
 # Stopt niet aan 30° hoogte
 
+# Overbrenging werd aangepast (18 mei in v8)
+
 # Sleep(looptijd)
 
 # Tijd bij de berekeningen klopt niet, ga van 30 na 25 of 8 ??!!!
