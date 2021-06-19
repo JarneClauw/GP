@@ -74,7 +74,7 @@ void receiveData(){
 void parseData(){
   char * strtokIndex;                               //strtok() gebruikt dit als index
 
-  strcpy(tempChars, receivedChars);                 //Copieer receivedChars naar tempChars
+  strcpy(tempChars, receivedChars);                 //Kopieer receivedChars naar tempChars
 
   strtokIndex = strtok(tempChars, sectionMarker);   //Neem 1ste deel van de data
   altFromPC = atol(strtokIndex);                    //Sla het op in altFromPC
